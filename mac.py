@@ -4,9 +4,11 @@ import matplotlib.pyplot as plt
 import mac as mac
 # Count Plot 
 
+
+
 def category_plot (y_value, dataset, color, ylabel):
     sns.set(style = 'whitegrid', font_scale = 1.8, rc={"figure.figsize": (12, 13), 'grid.color': '0.9'},)
-    x = sns.countplot(y = y_value, data = dataset , palette= color,order = dataset[y_value].value_counts().index)
+    x = sns.countplot(y = y_value, data = dataset , palette= color, order = dataset[y_value].value_counts().index)
     plt.xlabel('Count') 
     plt.ylabel(ylabel)
     return x
@@ -32,7 +34,7 @@ def apps_plot (data, x, y, color):
 # Rating Plot 
 def rating_plot (a):
     sns.set(style = 'whitegrid', font_scale = 1.8, rc={"figure.figsize": (12, 13), 'grid.color': '0.9'},)
-    x = sns.countplot(y = 'rating_est', data = a , palette= "Blues",
+    x = sns.countplot(y = 'rating_est', data = a , palette= "Blues_d",
                       order = a['rating_est'].value_counts().index)
     return x
     

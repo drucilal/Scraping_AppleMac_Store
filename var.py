@@ -1,5 +1,32 @@
 import pandas as pd
 
+# Colors 
+
+# Graphics 
+g = '#37535e'
+
+# Music 
+m = '#3c758b'
+
+# Education 
+e = '#4095b6'
+
+# Business 
+b = '#53afc9'
+
+# Video 
+
+v = '#73c0c4'
+
+# Photography 
+
+p = '#94d1bf'
+
+# Medical 
+
+me = '#697b30'
+
+
 
 mac_apps = pd.read_csv('macappstore.csv')
 mac_apps = mac_apps.drop(['Unnamed: 0'], axis=1)
@@ -187,6 +214,19 @@ photo_rate = filtered_rating[filtered_rating['category'].str.contains('Photograp
 video_rate = filtered_rating[filtered_rating['category'].str.contains('Video')].sort_values(by ='rating_est', ascending = False)
 graphics_rate = filtered_rating[filtered_rating['category'].str.contains('Graphics & Design')].sort_values(by ='rating_est', ascending = False)
 business_rate = filtered_rating[filtered_rating['category'].str.contains('Business')].sort_values(by ='rating_est', ascending = False)
+
+
+# Do not sort these
+education_rate1 = filtered_rating[filtered_rating['category'].str.contains('Education')]
+medicine_rate1 = filtered_rating[filtered_rating['category'].str.contains('Medical')]
+entertain_rate1 =filtered_rating[filtered_rating['category'].str.contains('Entertainment')]
+photo_rate1 = filtered_rating[filtered_rating['category'].str.contains('Photography')]
+video_rate1 = filtered_rating[filtered_rating['category'].str.contains('Video')]
+graphics_rate1 = filtered_rating[filtered_rating['category'].str.contains('Graphics & Design')]
+business_rate1 = filtered_rating[filtered_rating['category'].str.contains('Business')]
+
+
+
 
 
 # Music Ratings 
