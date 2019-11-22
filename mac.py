@@ -7,6 +7,13 @@ import mac as mac
 
 
 def category_plot (y_value, dataset, color, ylabel):
+	'''
+	Generates a count plot between categorical variables
+	y_value: chosen variable
+	dataset: current dataset 
+	color: choose a seaborn pallette
+	ylabel: modify the title of the yaxis 
+	'''
     sns.set(style = 'whitegrid', font_scale = 1.8, rc={"figure.figsize": (12, 13), 'grid.color': '0.9'},)
     x = sns.countplot(y = y_value, data = dataset , palette= color, order = dataset[y_value].value_counts().index)
     plt.xlabel('Count') 
@@ -16,6 +23,14 @@ def category_plot (y_value, dataset, color, ylabel):
 
 # Finding the mean 
 def avg_plot (data, x, y, color):
+	'''
+	Group, aggregate (mean), sort
+	Plot  the  average number of each y value
+	data: dataset
+	x: x value
+	y : y value
+	color = chosen color 
+	'''
 	s = data.groupby([x])[y].mean().sort_values().plot(kind = 'barh', color = color)
 	return s
 
