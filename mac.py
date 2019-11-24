@@ -14,11 +14,11 @@ def category_plot (y_value, dataset, color, ylabel):
 	color: choose a seaborn pallette
 	ylabel: modify the title of the yaxis 
 	'''
-    sns.set(style = 'whitegrid', font_scale = 1.8, rc={"figure.figsize": (12, 13), 'grid.color': '0.9'},)
-    x = sns.countplot(y = y_value, data = dataset , palette= color, order = dataset[y_value].value_counts().index)
-    plt.xlabel('Count') 
-    plt.ylabel(ylabel)
-    return x
+	sns.set(style = 'whitegrid', font_scale = 1.8, rc={"figure.figsize": (12, 13), 'grid.color': '0.9'},)
+	x = sns.countplot(y = y_value, data = dataset , palette= color, order = dataset[y_value].value_counts().index)
+	plt.xlabel('Count') 
+	plt.ylabel(ylabel)
+	return x
 
 
 # Finding the mean 

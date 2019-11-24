@@ -1,4 +1,9 @@
 import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+import plotly.graph_objects as go
+from tabulate import tabulate
 
 # Colors 
 
@@ -165,6 +170,33 @@ free = mac_apps.query('price_category == 0')
 # Graphics Price
 graph = paid[paid['category'].str.contains('Graphics & Design')].sort_values(by ='price', ascending = False)
 paid_graph =  graph.head(10)
+
+# Education
+
+educationPaid = paid[paid['category'].str.contains('Education')].sort_values(by ='price', ascending = False)
+paid_education =  educationPaid.head(10)
+
+# Business
+
+businessPaid = paid[paid['category'].str.contains('Business')].sort_values(by ='price', ascending = False)
+paid_business =  businessPaid.head(10)
+
+# Photography 
+
+photoPaid = paid[paid['category'].str.contains('Photography')].sort_values(by ='price', ascending = False)
+paid_photo =  photoPaid.head(10)
+
+# Medical
+medicalPaid = paid[paid['category'].str.contains('Medical')].sort_values(by ='price', ascending = False)
+paid_med =  medicalPaid.head(10)
+
+# Video
+videoPaid = paid[paid['category'].str.contains('Video')].sort_values(by ='price', ascending = False)
+paid_video =  videoPaid.head(10)
+
+# Music 
+musicPaid = paid[paid['category'].str.contains('Music')].sort_values(by ='price', ascending = False)
+paid_music =  musicPaid.head(10)
 
 # Ratings
 
@@ -348,6 +380,35 @@ medium_business_rate.columns = ['Compatibility', 'Name', 'Rating']
 medium_business_rate1 = medium_business_rate.head(10)
 
 
+graph_free = free[free['category'].str.contains('Graphics & Design')].sort_values(by ='price', ascending = False)
+free_graph =  graph_free.head(10)
+
+# Education
+
+educationfree = free[free['category'].str.contains('Education')].sort_values(by ='price', ascending = False)
+free_education =  educationfree.head(10)
+
+# Business
+
+businessfree = free[free['category'].str.contains('Business')].sort_values(by ='price', ascending = False)
+free_business =  businessfree.head(10)
+
+# Photography 
+
+photofree = free[free['category'].str.contains('Photography')].sort_values(by ='price', ascending = False)
+free_photo =  photofree.head(10)
+
+# Medical
+medicalfree = free[free['category'].str.contains('Medical')].sort_values(by ='price', ascending = False)
+free_med =  medicalfree.head(10)
+
+# Video
+videofree = free[free['category'].str.contains('Video')].sort_values(by ='price', ascending = False)
+free_video =  videofree.head(10)
+
+# Music 
+musicfree = free[free['category'].str.contains('Music')].sort_values(by ='price', ascending = False)
+free_music =  musicfree.head(10)
 
 
 
