@@ -9,3 +9,5 @@ This approach can be beneficial in businesses when developing the next app that 
 Instead of solely relying on the internet for information on different applications, I scraped the Apple Mac App Store into a dataset and began visualizing it through an exploratory data analysis approach. 
 
 Scraped URL : https://apps.apple.com/ag/genre/mac/id39?mt=12
+
+
