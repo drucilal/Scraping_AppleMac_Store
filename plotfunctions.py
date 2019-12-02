@@ -1,7 +1,7 @@
 
 import seaborn as sns
 import matplotlib.pyplot as plt
-import mac as mac
+import plotfunctions as mac
 # Count Plot 
 
 
