@@ -29,7 +29,7 @@ p = '#94d1bf'
 
 me = '#697b30'
 
-
+# Open cleaned dataset
 
 mac_apps = pd.read_csv('macappstore.csv')
 mac_apps = mac_apps.drop(['Unnamed: 0'], axis=1)
