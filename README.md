@@ -22,7 +22,7 @@ Created a cleaning module:
 Data Analysis & Visualization 
 -----------------------------
 
-1. Educational apps tend to be the most predominant. Apple sells their Laptops/Ipad at a discounted rate for current students.
+  Educational apps tend to be the most predominant. Apple sells their Laptops/Ipad at a discounted rate for current students.
 
 Size: 
 -----
