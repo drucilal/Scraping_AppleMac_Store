@@ -41,7 +41,7 @@ Price
 
 3. Majority of the paid apps are graphic and design applications. It seems to be that the applications that consumed the most computational power were not free.
 
-4.These are apps are also the most expensive ones. 
+ 4.These are apps are also the most expensive ones. 
 
 5. Majority of educational applications are free.  Individuals are offered free resources to enhance their knowledge in their educational field. 
 
