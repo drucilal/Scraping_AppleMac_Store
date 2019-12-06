@@ -27,27 +27,27 @@ Data Analysis & Visualization
 Size: 
 -----
 
-1. Graphic Design consumes the largest power of apps, while business applications consume the least computation power.
+- Graphic Design consumes the largest power of apps, while business applications consume the least computation power.
 
-2. We can see that each of the seven categories contains applications that vary within size.
+- We can see that each of the seven categories contains applications that vary within size.
 
-3. Based on users’ memory capacity, they are able to choose which application is best for them to use.
+- Based on users’ memory capacity, they are able to choose which application is best for them to use.
 
 Price
 -----
-1. Majority of applications are not free.
+- Majority of applications are not free.
 
-2. I picked the top ten most expensive apps in each category and compared their price ranges to the others.
+- I picked the top ten most expensive apps in each category and compared their price ranges to the others.
 
-3. Majority of the paid apps are graphic and design applications. It seems to be that the applications that consumed the most computational power were not free.
+- Majority of the paid apps are graphic and design applications. It seems to be that the applications that consumed the most computational power were not free.
 
- 4.These are apps are also the most expensive ones. 
+-These are apps are also the most expensive ones. 
 
-5. Majority of educational applications are free.  Individuals are offered free resources to enhance their knowledge in their educational field. 
+- Majority of educational applications are free.  Individuals are offered free resources to enhance their knowledge in their educational field. 
 
 Ratings 
 -------
-1.Applications within the 7 categories contain more highly rated applications except for business applications. 
+- Applications within the 7 categories contain more highly rated applications except for business applications. 
 
 Conclusion
 ----------
