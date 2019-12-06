@@ -1,6 +1,8 @@
 # Scraping_AppleMac_Store
 -------
 Scraped URL : https://apps.apple.com/ag/genre/mac/id39?mt=12
+
+
 Blog : https://nycdatascience.com/blog/author/drucila-lefevre/
 
 Overview 
